@@ -32,10 +32,11 @@ body {
   color: var(--GrayishBlue);
   background-color: var(--VeryLightGray);
   min-height: 100vh;
+  padding: 4rem 0;
 }
 
 main {
-  width: 1110px;
+  max-width: 1110px;
 }
 
 img {
