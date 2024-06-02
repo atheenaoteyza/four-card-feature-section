@@ -31,7 +31,7 @@ body {
   align-items: center;
   color: var(--GrayishBlue);
   background-color: var(--VeryLightGray);
-  height: 900px;
+  min-height: 100vh;
 }
 
 main {
@@ -42,6 +42,11 @@ img {
   height: 65px;
   width: 65px;
   align-self: flex-end;
+}
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 h1 {
@@ -142,5 +147,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  h1,
+  h2,
+  .head-p {
+    max-width: 375px;
   }
 }
